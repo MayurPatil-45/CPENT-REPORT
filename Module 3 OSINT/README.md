@@ -1,90 +1,80 @@
-# 🎯 CPENT Module 4 – Social Engineering
+# 🔍 OSINT Tools
 
-## 📌 Module Overview
+## 📌 Overview
 
-CPENT Module 4 focuses on **Social Engineering attacks**, which target the human element of security rather than technical vulnerabilities. This module covers how attackers manipulate individuals to gain unauthorized access to sensitive information, systems, or physical locations, and how organizations can defend against such attacks.
-
----
-
-## 🎯 Module Objectives
-
-By completing this module, learners will be able to:
-
-* Understand the psychology behind social engineering attacks
-* Identify different types of social engineering techniques
-* Perform controlled social engineering simulations (ethical use)
-* Analyze real-world social engineering case studies
-* Recommend defensive strategies and awareness controls
+This repository contains a curated collection of **Open Source Intelligence (OSINT) tools, scripts, and methodologies** used for gathering, analyzing, and correlating publicly available information. These tools are useful for **SOC analysts, penetration testers, threat hunters, and cybersecurity researchers** during reconnaissance and investigation phases.
 
 ---
 
-## 🧠 Topics Covered
+## 🎯 Purpose
 
-* Introduction to Social Engineering
-* Human psychology and manipulation techniques
-* Types of Social Engineering Attacks:
+The goal of this repository is to:
 
-  * Phishing, Spear Phishing, Whaling
-  * Vishing (Voice Phishing)
-  * Smishing (SMS Phishing)
-  * Pretexting
-  * Baiting and Quid Pro Quo
-  * Impersonation attacks
-* Social Engineering in Cyber Kill Chain
-* Social Engineering Frameworks
-* Real-world attack scenarios
+* Perform reconnaissance using open-source data
+* Support SOC investigations and threat intelligence
+* Assist penetration testing and red team activities
+* Improve understanding of real-world OSINT techniques
 
 ---
 
-## 🛠️ Tools & Techniques
+## 🧰 Tools Covered
 
-* Social Engineering Toolkit (SET)
-* Email spoofing concepts
-* Phishing campaign basics (lab-based)
-* OSINT for target profiling
-* Payload delivery concepts (theoretical and lab-controlled)
+This repository includes usage and notes for popular OSINT tools such as:
 
----
-
-## 🔎 Use Cases
-
-* Red team social engineering assessments
-* Security awareness testing
-* Incident response analysis
-* SOC investigation of phishing incidents
-* Risk assessment and reporting
+* **theHarvester** – Email, domain, and subdomain enumeration
+* **Maltego** – Link analysis and data correlation
+* **Amass** – Advanced DNS enumeration
+* **Recon-ng** – Web reconnaissance framework
+* **Shodan** – Internet-connected device search
+* **SpiderFoot** – Automated OSINT collection
+* **Whois** – Domain and IP ownership lookup
+* **Google Dorking** – Advanced search techniques
 
 ---
 
-## 🛡️ Defensive Measures
+## 🔎 OSINT Use Cases
 
-* User awareness and security training
-* Email security controls
-* Phishing detection and reporting
-* MFA and access control policies
-* SOC monitoring and alerting
+* Domain & IP reconnaissance
+* Email and username enumeration
+* Social media intelligence gathering
+* Metadata extraction
+* Threat actor profiling
+* Incident response support
+
+---
+
+## 🛠️ Environment
+
+* **OS**: Kali Linux / Parrot OS / Ubuntu
+* **Language**: Python, Bash
+* **Category**: OSINT, Threat Intelligence, Reconnaissance
 
 ---
 
 ## ⚠️ Disclaimer
 
-> All techniques discussed in this module are for **educational and authorized testing purposes only**. Social engineering attacks must only be conducted with proper permission and within legal and ethical boundaries.
+> This repository is intended **for educational and ethical purposes only**. All tools and techniques should be used only on systems and data you are authorized to test. The author is not responsible for misuse.
 
 ---
 
-## 📚 Learning Outcomes
+## 📚 Learning Outcome
 
-After completing this module, learners will:
+By using this repository, you will gain hands-on experience in:
 
-* Understand attacker mindset in social engineering
-* Recognize and respond to phishing and manipulation attempts
-* Strengthen organizational security posture
-* Support SOC teams in detecting and responding to social engineering attacks
+* OSINT investigation techniques
+* Intelligence gathering for SOC operations
+* Reconnaissance for penetration testing
+* Understanding attacker reconnaissance methods
 
 ---
 
 ## 👤 Author
 
-**Mayur Dipak Patil**
-Cybersecurity Enthusiast | CPENT | SOC Analyst | OSINT
+**Mayur Dipak Patil
+Cybersecurity Enthusiast | OSINT | SOC | CPENT
 
+---
+
+## ⭐ Support
+
+If you find this repository helpful, consider giving it a ⭐ and sharing feedback.
